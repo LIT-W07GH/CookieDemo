@@ -1,0 +1,10 @@
+﻿@model CookieIndexViewModel
+
+@if (Model.IsFirstTime)
+{
+<h1>Welcome to my website!!</h1>
+}
+else
+{
+<h1>Welcome back - your random number is @Model.RandomNumber</h1>
+}
